@@ -1,0 +1,29 @@
+{
+  "name": "ai-agent-todo-application",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+      "generate" : "drizzle-kit generate",
+      "migrate" : "drizzle-kit migrate",
+      "studio": "drizzle-kit studio"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rahulthakur-dev/ai-agent-todo-application.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/rahulthakur-dev/ai-agent-todo-application/issues"
+  },
+  "homepage": "https://github.com/rahulthakur-dev/ai-agent-todo-application#readme",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "drizzle-kit": "^0.30.5",
+    "drizzle-orm": "^0.40.1",
+    "pg": "^8.14.1"
+  }
+}
